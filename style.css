@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: #004481;
+    color: #ffffff;
+}
+button{
+    background-color: #FFD662;
+    color: #004481;
+    font-size: xx-large;
+    height: 50px;
+    border-radius: 20px;
+    border-style: none;
+}
+.cam,#Capture{
+    border-radius: 20px;
+    height: 300px;
+    width: 40%;
+    background-color:#FFD662
+}
+button:hover{
+    color: white;
+}

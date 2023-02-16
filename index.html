@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="Main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h2>Family Face Recognition</h2>
+            <div class="Container">
+                <b>
+                    <hr>
+                    Phone
+                    <hr>
+                    Watch
+                    <hr>
+                    Compass
+                    <hr>
+                    Book
+                    <hr>
+                </b>
+            </div>
+            <br><br>
+            <div id="Camera" class="cam"></div>
+            <br><br>
+            <b>Taken Pictures</b>
+            <div id="Capture">
+                <img src="" id="capture_image" alt="">
+            </div>
+            <br><br>
+            <span><button onclick="Click_image()">Take Picture</button>&nbsp;&nbsp;
+            <button onclick="got_result()">Start Recognition</button></span><br><br>
+            <h2 id="Obj">Object</h2>
+            <h2 id="Accu">Accuracy</h2>
+        </center>
+    </body>
+</html>
